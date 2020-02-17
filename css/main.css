@@ -106,7 +106,7 @@ html {
 body {
   color: LavenderBlush;
   font-family: 'Source Sans Pro', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   padding: 2em;
   height: 100%;
 }
@@ -118,17 +118,36 @@ body {
   align-items: center;
 }
 
+header {
+  font-weight: 700;
+  font-size: 2em;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+}
+
+main, footer {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flex-flow: row;
+  border-bottom: 1px solid #555;
+}
+
 .div-1, .div-2, .div-3 {
   display: flex;
   justify-content: center;
   align-items: center;  
   line-height: 1.5em;
   font-size: 1em;
-  background-color: #4d0928;
   /*width: 30%;*/
   height: auto;
 }
 
+footer {
+  border-top: 1px solid #555;
+}
 
 /* ==========================================================================
    Helper classes
